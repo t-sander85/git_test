@@ -1,5 +1,8 @@
 @import "bootstrap";
 
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
 .clear{
   clear: both;
 }
@@ -34,15 +37,20 @@ clear: both;
 
 .slogan {
 
-    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-family: 'Source Sans Pro', sans-serif ;
     font-weight: 200;
     font-size: 12px;
     font-style : normal;
     padding-top: 24px;
-
-
 }
 
+.footer_blurb{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  text-align: right;
+}
 
 .links {
     padding-top: 24px;
@@ -51,7 +59,21 @@ clear: both;
 
 .links a {
   color: #d86a20;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 400;
   border-bottom: none;
+
+}
+
+h1, h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+
+}
+
+
+h1 {
+  font-size: 48px;
 }
