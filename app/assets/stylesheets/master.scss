@@ -11,6 +11,20 @@ header {
   border-top: none;
 }
 
+.footer {
+margin-top: 32px;
+padding-top: 10px;
+background-color: #f1f1f1;
+}
+
+.footer_blurb{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  text-align: right;
+}
+
 hr {
 clear: both;
 }
@@ -48,13 +62,6 @@ clear: both;
     padding-top: 24px;
 }
 
-.footer_blurb{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  font-style: normal;
-  text-align: right;
-}
 
 .links {
     padding-top: 24px;
@@ -83,3 +90,24 @@ h1, h2 {
 h1 {
   font-size: 48px;
 }
+
+.about {
+  font-family: 'Source Sans Pro', sans-serif ;
+}
+
+
+.bio_padding {
+
+
+}
+
+.bio_pic {
+
+}
+
+
+
+
+
+
+
