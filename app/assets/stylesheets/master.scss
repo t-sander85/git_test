@@ -7,6 +7,18 @@ font-family: 'Source Code Pro', monospace; */
   clear: both;
 }
 
+
+@media (max-width: 750px) {
+
+  .footer-blurb{
+    text-align: left;
+  }
+}
+
+ ::selection {
+  background-color: #f84342;
+}
+
 header {
   border-top: none;
 }
@@ -27,6 +39,11 @@ background-color: #f1f1f1;
 
 hr {
 clear: both;
+}
+
+.row{
+  padding-left: 2% !important;
+  padding-right: 2% !important;
 }
 
 .logo:hover {
@@ -57,9 +74,10 @@ clear: both;
 
     font-family: 'Source Sans Pro', sans-serif ;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 18px;
     font-style : normal;
-    padding-top: 24px;
+    text-align: left;
+    padding-top: 32px;
 }
 
 
@@ -75,6 +93,9 @@ clear: both;
   font-weight: 400;
   text-decoration-line: none;
   border-bottom: none;
+  padding-left: 10px;
+  padding-right: 10px; 
+  float: right;
 
 }
 
@@ -91,20 +112,37 @@ h1 {
   font-size: 48px;
 }
 
-.about {
+h2 span {
+  color: #dddddd;
+  font-weight: 800;
+  font-size: 24px;
+
+}
+
+.about .modal {
   font-family: 'Source Sans Pro', sans-serif ;
 }
 
 
 .bio_padding {
-
-
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .bio_pic {
-
+align-items: center;
+height: 175px;
+width: 175px;
+border-radius: 100%;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 
 
