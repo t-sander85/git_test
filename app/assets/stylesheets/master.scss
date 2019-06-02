@@ -15,6 +15,10 @@ hr {
 clear: both;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
@@ -62,9 +66,11 @@ clear: both;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  text-decoration-line: none;
   border-bottom: none;
 
 }
+
 
 h1, h2 {
   font-family: 'Source Sans Pro', sans-serif;

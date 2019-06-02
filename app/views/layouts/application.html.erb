@@ -18,11 +18,13 @@
     <header class="row">
       
       <div class="col-3">
-        <div class="circle">
-          <br />WE
-          <br />MAKE
-          <br />THINGS
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />WE
+            <br />MAKE
+            <br />THINGS
+          </div>
+        <% end %>
       </div>
 
       <div class="col-4 slogan">
@@ -30,7 +32,7 @@
       </div>
 
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to  'About', '#' %>
       </div>
 
@@ -48,7 +50,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            We break things...
+           <%= link_to 'We break things...', root_path, class: 'next_quote' %>
           </div>
           <div class="col-6 footer_blurb">
             I broke this : <a href="tomwsander.com">Batman</a><br />
